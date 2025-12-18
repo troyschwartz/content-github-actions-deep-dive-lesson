@@ -7,11 +7,12 @@
    jobs:
         build:
             run-on: ubuntu-latest
-         steps:
+            
+            steps:
             -name: Check out the code
-               uses: actions/checkout@v2
-               -name: Set up python
-               uses: actions/setup-python@v2
+            uses: actions/checkout@v2
+            -name: Set up python
+            uses: actions/setup-python@v2
                with:
                   python-version 3.8
                -name: install libraries
