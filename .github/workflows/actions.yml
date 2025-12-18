@@ -8,6 +8,8 @@
         build:
             run-on: ubuntu-latest
             steps:
+               -name: Check out the code
+               uses: actions/checkout@v2
                 -name: Set up python
                  uses: actions/setup-python@v2
                 with:
