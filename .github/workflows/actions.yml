@@ -4,8 +4,7 @@
         push: 
             branches:
                 -main
-
-    jobs:
+   jobs:
         build:
             run-on: ubuntu-latest
             steps:
