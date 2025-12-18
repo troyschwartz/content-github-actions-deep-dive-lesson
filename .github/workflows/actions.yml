@@ -9,7 +9,7 @@
             run-on: ubuntu-latest
             steps:
                 -name: Check out code
-                 uses: actions/checkoutv@2
+                 uses: actions/checkout@v2
                 -name: Set up python
                  uses: actions/setup-python@v2
                 with:
